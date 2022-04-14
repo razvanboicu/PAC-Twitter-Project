@@ -1,0 +1,19 @@
+﻿  Feed.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Server-Side\Feed.cpp(19,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  InvertedIndex.cpp
+  PostServerSide.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Server-Side\PostServerSide.cpp(82,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Processor.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Server-Side\Processor.cpp(98,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Source.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Server-Side\Source.cpp(33,14): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+  ThreadPool.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Server-Side\ThreadPool.cpp(70,93): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Server-Side\ThreadPool.cpp(87,71): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Tokenize.cpp
+  Users.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Server-Side\Users.cpp(131,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Server-Side\Users.cpp(89): warning C4715: 'Users::ConvertUserToId': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Server-Side\Processor.cpp(55): warning C4715: 'Processor::ProcessRequest': not all control paths return a value
+  Twitter-Server-Side.vcxproj -> F:\Twitter_Project\PAC-Twitter-Project\x64\Debug\Twitter-Server-Side.exe

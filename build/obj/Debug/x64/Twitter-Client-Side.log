@@ -1,0 +1,81 @@
+﻿  Button.cpp
+  Client.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Client.cpp(22,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Client.cpp(29,95): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Comment.cpp
+  ErrorWindow.cpp
+  FeedWindow.cpp
+  FriendRequest.cpp
+  IWindow.cpp
+  Logic.cpp
+  Main.cpp
+  MainMenuWindow.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\MainMenuWindow.cpp(182,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\MainMenuWindow.cpp(185,84): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Menu.cpp
+  Notifications.cpp
+  OtherProfilesWindow.cpp
+  Post.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Post.cpp(80,1): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  PostBase.cpp
+  PostLogic.cpp
+  PostWidget.cpp
+  PostWindow.cpp
+  Profile.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Profile.cpp(48,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Profile.cpp(53,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Profile.cpp(58,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  ProfileWindow.cpp
+  Generating Code...
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\ProfileWindow.cpp(226): warning C4715: 'ProfileWindow::getNextWindowEnum': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\PostWindow.cpp(97): warning C4715: 'PostWindow::getNextWindowEnum': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Post.cpp(29): warning C4715: 'Post::GetRetweetedPostAuthor': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\OtherProfilesWindow.cpp(185): warning C4715: 'OtherProfilesWindow::getNextWindowEnum': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\MainMenuWindow.cpp(142): warning C4715: 'MainMenuWindow::getNextWindowEnum': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\FeedWindow.cpp(183): warning C4715: 'FeedWindow::getNextWindowEnum': not all control paths return a value
+  Compiling...
+  RegisterWindow.cpp
+  Runtime.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Runtime.cpp(7,31): warning C4244: '=': conversion from 'UINT_PTR' to 'int', possible loss of data
+  Scrollbar.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Scrollbar.cpp(28,117): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  SearchKeywordWindow.cpp
+  SearchLogic.cpp
+  Settings.cpp
+  Textbox.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Textbox.cpp(12,29): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Textbox.cpp(24,29): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Textbox.cpp(81,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  TextButton.cpp
+  User.cpp
+  UserLogic.cpp
+  UserLogin.cpp
+  Widget.cpp
+  Generating Code...
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\UserLogin.cpp(64): warning C4715: 'UserLogin::getNextWindowEnum': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\UserLogic.cpp(59): warning C4715: 'UserLogic::CheckIfFollowing': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\UserLogic.cpp(47): warning C4715: 'UserLogic::UpdateFollowStatus': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\SearchKeywordWindow.cpp(119): warning C4715: 'SearchKeywordWindow::getNextWindowEnum': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Runtime.cpp(19): warning C4717: 'Runtime::Begin': recursive on all control paths, function will cause runtime stack overflow
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\RegisterWindow.cpp(77): warning C4715: 'RegisterWindow::getNextWindowEnum': not all control paths return a value
+  Twitter-Client-Side.vcxproj -> F:\Twitter_Project\PAC-Twitter-Project\build\bin\Debug\x64\Twitter-Client-Side.exe
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\openal32.dll
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\sfml-audio-2.dll
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\sfml-audio-d-2.dll
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\sfml-graphics-2.dll
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\sfml-graphics-d-2.dll
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\sfml-network-2.dll
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\sfml-network-d-2.dll
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\sfml-system-2.dll
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\sfml-system-d-2.dll
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\sfml-window-2.dll
+  F:\Twitter_Project\PAC-Twitter-Project\ThirdParty\bin\x64\sfml-window-d-2.dll
+  11 File(s) copied

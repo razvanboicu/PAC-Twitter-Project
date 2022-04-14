@@ -1,0 +1,42 @@
+﻿  Button.cpp
+  Comment.cpp
+  ErrorWindow.cpp
+  FriendRequest.cpp
+  IWindow.cpp
+  Main.cpp
+  MainMenuWindow.cpp
+  Menu.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Menu.cpp(37,25): warning C4018: '<': signed/unsigned mismatch
+  Notifications.cpp
+  Post.cpp
+  PostWindow.cpp
+  Profile.cpp
+  ProfileWindow.cpp
+  RegisterWindow.cpp
+  Runtime.cpp
+  Settings.cpp
+  SettingsWindow.cpp
+  Textbox.cpp
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Textbox.cpp(11,29): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  TextButton.cpp
+  User.cpp
+  Generating Code...
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\SettingsWindow.cpp(37): warning C4715: 'SettingsWindow::GetNextWindowEnum': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\Runtime.cpp(17): warning C4717: 'Runtime::Begin': recursive on all control paths, function will cause runtime stack overflow
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\RegisterWindow.cpp(72): warning C4715: 'RegisterWindow::GetNextWindowEnum': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\ProfileWindow.cpp(74): warning C4715: 'ProfileWindow::GetNextWindowEnum': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\PostWindow.cpp(50): warning C4715: 'PostWindow::GetNextWindowEnum': not all control paths return a value
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\MainMenuWindow.cpp(87): warning C4715: 'MainMenuWindow::GetNextWindowEnum': not all control paths return a value
+  Compiling...
+  UserLogin.cpp
+  Widget.cpp
+  Generating Code...
+F:\Twitter_Project\PAC-Twitter-Project\Twitter-Client-Side\UserLogin.cpp(66): warning C4715: 'UserLogin::GetNextWindowEnum': not all control paths return a value
+ErrorWindow.obj : error LNK2019: unresolved external symbol __imp__MessageBoxA@16 referenced in function "public: void __thiscall ErrorWindow::ShowError(void)" (?ShowError@ErrorWindow@@QAEXXZ)
+Main.obj : error LNK2019: unresolved external symbol "public: __thiscall TcpSocket::TcpSocket(void)" (??0TcpSocket@@QAE@XZ) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "public: __thiscall TcpSocket::~TcpSocket(void)" (??1TcpSocket@@QAE@XZ) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "public: bool __thiscall TcpSocket::Connect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned short)" (?Connect@TcpSocket@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@G@Z) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "public: bool __thiscall TcpSocket::Send(void const *,int)" (?Send@TcpSocket@@QAE_NPBXH@Z) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "public: bool __thiscall TcpSocket::Receive(void *,int,int &)" (?Receive@TcpSocket@@QAE_NPAXHAAH@Z) referenced in function _main
+F:\Twitter_Project\PAC-Twitter-Project\x64\Debug\Network.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+F:\Twitter_Project\PAC-Twitter-Project\build\bin\Debug\Win32\Twitter-Client-Side.exe : fatal error LNK1120: 6 unresolved externals
